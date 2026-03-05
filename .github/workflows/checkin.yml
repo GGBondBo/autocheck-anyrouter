@@ -20,6 +20,7 @@ jobs:
       ANYROUTER_ACCOUNTS: ${{ secrets.ANYROUTER_ACCOUNTS }}
       # 是否显示敏感信息
       SHOW_SENSITIVE_INFO: ${{ secrets.SHOW_SENSITIVE_INFO }}
+      NOTIFY_TRIGGERS: ${{ vars.NOTIFY_TRIGGERS }}
       # 通知配置
       DINGTALK_NOTIF_CONFIG: ${{ secrets.DINGTALK_NOTIF_CONFIG }}
       EMAIL_NOTIF_CONFIG: ${{ secrets.EMAIL_NOTIF_CONFIG }}
